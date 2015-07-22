@@ -1,0 +1,61 @@
+{
+    "background": {
+        "scripts": [
+            "js/application/background.js"
+        ]
+    },
+    "browser_action": {
+        "default_icon": {
+            "19": "icons/19x19.png",
+            "38": "icons/38x38.png"
+        },
+        "default_popup": "popup.html",
+        "default_title": "Streamsquid"
+    },
+    "commands": {
+        "_execute_browser_action": {
+            "suggested_key": "Alt+W"
+        },
+        "nextSong": {
+            "description": "__MSG_nextSong__",
+            "suggested_key": {
+                "default": "MediaNextTrack"
+            }
+        },
+        "previousSong": {
+            "description": "__MSG_previousSong__",
+            "suggested_key": {
+                "default": "MediaPrevTrack"
+            }
+        },
+        "toggleSong": {
+            "description": "__MSG_toggleSong__",
+            "suggested_key": {
+                "default": "MediaPlayPause"
+            }
+        }
+    },
+    "content_scripts": [
+        {
+            "js": [                
+                "js/application/contentscript.js"
+            ],
+            "matches": [
+                "http://streamsquid.com/*"
+            ]
+        }
+    ],
+    "description": "__MSG_extensionDescription__",
+    "icons": {
+        "16": "icons/16x16.png",
+        "48": "icons/48x48.png"
+    },
+    "manifest_version": 2,
+    "name": "Streamsquid Keyboard Shortcuts [Unofficial]",
+    "permissions": [
+        "tabs"
+    ],
+    "version": "1.0.1",
+    "author" : "leonbejarj",
+    "default_locale": "es"
+}

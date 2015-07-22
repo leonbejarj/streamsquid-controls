@@ -1,0 +1,17 @@
+{
+    "nextSong": {
+        "message": "Canci\u00f3n siguiente"
+    },
+    "previousSong": {
+        "message": "Canci\u00f3n anterior"
+    },
+    "toggleSong": {
+        "message": "Reproducir/pausar canci\u00f3n"
+    },
+    "keyboardShotcut": {
+    	"message": "Atajos de teclado"
+    },
+    "extensionDescription": {
+        "message": "Controla con atajos de teclado los controles de reproducci\u00f3n de la p\u00e1gina web."
+    }
+}

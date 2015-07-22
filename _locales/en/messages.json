@@ -1,0 +1,17 @@
+{
+    "nextSong": {
+        "message": "Next song"
+    },
+    "previousSong": {
+        "message": "Previous song"
+    },
+    "toggleSong": {
+        "message": "Play/pause song"
+    },
+    "keyboardShotcut": {
+    	"message": "Keyboard shortcuts"
+    },
+    "extensionDescription": {
+        "message": "Keyboard shortcuts handler for the website."
+    }
+}
