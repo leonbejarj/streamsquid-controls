@@ -28,8 +28,6 @@ function previousSong() {
 	document.getElementById('player-back').click();	
 }
 /**********| Content |**********/
-var link = "https://10.1.1.2/connect/PortalMain"
-
 window.onload = function() {
     var observables = document.querySelector('#player-track-artist');
 
